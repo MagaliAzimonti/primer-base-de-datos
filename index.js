@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = 8081;
+const PORT = process.env.PORT || 8081;
 let { Server : HttpServer } = require('http');
 const {Server: IOServer} = require('socket.io');
 let hbs = require('express-handlebars');
