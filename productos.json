@@ -100,5 +100,17 @@
     "precio": "800",
     "marca": "Semilla",
     "id": 17
+  },
+  {
+    "nombre": "Esmalte Citric Power",
+    "precio": "1200",
+    "marca": "Semila",
+    "id": 18
+  },
+  {
+    "nombre": "",
+    "precio": "",
+    "marca": "",
+    "id": 19
   }
 ]

@@ -8,6 +8,7 @@ let serverRoutes = require('./routes')
 let Socket = require('./utils/sockets')
 const Contenedor = require('./components/products/index')
 const archivo = new Contenedor("productos.json");
+const db = require('./db/sqlite3.js')
 
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
